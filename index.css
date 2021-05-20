@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 230px;
+    height: 100vh;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+  overflow: scroll;
+  }
+
+  li {
+    border-top: 1px solid #555;
+    box-sizing: border-box;
+  }
+
+  li a {
+    display: block;
+    color: #000;
+  padding: 15px 10px;
+  text-decoration: none;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 15px;
+  }
+
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+main {
+  height: 100vh;
+  overflow: scroll;
+  margin-left: 20px;
+}
+
+main h1 {
+  font-family: 'Lexend Exa', sans-serif;
+    font-size: 35px;
+  margin-bottom: 20px;
+}
+  
+main p {
+  margin-left: 20px;
+  font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: row; 
+}
