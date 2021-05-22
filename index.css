@@ -15,7 +15,22 @@ ul {
     background-color: #f1f1f1;
     border: 1px solid #555;
   overflow: scroll;
+  position: relative;
+  top: 53px;
   }
+
+ul span {
+  display: block;
+  width: 230px;
+  padding: 15px 0px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  font-size: 20px;
+  font-family: 'Lexend Exa', sans-serif;
+  text-align: center;
+  font-weight: 800;
+}
 
   li {
     border-top: 1px solid #555;
@@ -39,13 +54,14 @@ ul {
 main {
   height: 100vh;
   overflow: scroll;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 main h1 {
   font-family: 'Lexend Exa', sans-serif;
     font-size: 35px;
   margin-bottom: 20px;
+  margin-top: 53px;
 }
   
 main p {
