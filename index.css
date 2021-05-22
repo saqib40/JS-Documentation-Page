@@ -26,6 +26,26 @@ ul {
     height: 100vh;
     background-color: #f1f1f1;
     border-top: 1px solid #555;
+  overflow: scroll;
+  position: fixed;
+  clear: right;
+  }
+
+ul span {
+  display: block;
+  width: 230px;
+  padding: 15px 0px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  font-size: 20px;
+  font-family: 'Lexend Exa', sans-serif;
+  text-align: center;
+  font-weight: 800;
+}
+
+  li {
+    border-top: 1px solid #555;
     overflow: scroll;
     clear: right;
     position: fixed;
