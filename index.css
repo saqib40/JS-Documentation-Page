@@ -122,3 +122,23 @@ body {
         margin-left: 20px;
     }
 }
+
+@media (max-width: 700px) {
+  body {
+    display: flex;
+    flex-direction: column; 
+}
+  ul {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    top: 0;
+  }
+  ul span {
+    position: sticky;
+    top: 0;
+    padding: 13px 0px;
+    background-color: white;
+    width: 100%;
+  }
+}
